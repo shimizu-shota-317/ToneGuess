@@ -1,0 +1,646 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SettingViewController"
+provides-nominal:
+- "9ToneGuess21SettingViewControllerC"
+provides-member:
+- ["9ToneGuess21SettingViewControllerC", ""]
+provides-dynamic-lookup:
+- "numberOfComponents"
+- "pickerView"
+- "timbrePicker"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "SettingViewController"
+- "String"
+- "StringLiteralType"
+- "UIPickerView"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
+- "UIViewController"
+- !private "UserDefaults"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "enumerated"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "selectRow"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "enumerated"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberOfComponents"]
+- ["s7CVarArgP", "numberOfComponentsInPickerView"]
+- ["s7CVarArgP", "pickerView"]
+- !private ["s7CVarArgP", "selectRow"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "synchronize"]
+- !private ["s7CVarArgP", "timbreKey"]
+- !private ["s7CVarArgP", "timbrePicker"]
+- !private ["s7CVarArgP", "timbres"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s28CustomDebugStringConvertibleP", "pickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "selectRow"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronize"]
+- !private ["s28CustomDebugStringConvertibleP", "timbreKey"]
+- !private ["s28CustomDebugStringConvertibleP", "timbrePicker"]
+- !private ["s28CustomDebugStringConvertibleP", "timbres"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dataSource"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "selectRow"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "numberOfComponents"]
+- ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s23CustomStringConvertibleP", "pickerView"]
+- !private ["s23CustomStringConvertibleP", "selectRow"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "synchronize"]
+- !private ["s23CustomStringConvertibleP", "timbreKey"]
+- !private ["s23CustomStringConvertibleP", "timbrePicker"]
+- !private ["s23CustomStringConvertibleP", "timbres"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "dataSource"]
+- !private ["Se", "delegate"]
+- !private ["Se", "enumerated"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "selectRow"]
+- !private ["Se", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "dataSource"]
+- !private ["SE", "delegate"]
+- !private ["SE", "enumerated"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "selectRow"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "count"]
+- !private ["SQ", "dataSource"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "enumerated"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "numberOfComponents"]
+- ["SQ", "numberOfComponentsInPickerView"]
+- ["SQ", "pickerView"]
+- !private ["SQ", "selectRow"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "synchronize"]
+- !private ["SQ", "timbreKey"]
+- !private ["SQ", "timbrePicker"]
+- !private ["SQ", "timbres"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "dataSource"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "selectRow"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "count"]
+- !private ["SH", "dataSource"]
+- !private ["SH", "delegate"]
+- !private ["SH", "enumerated"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "numberOfComponents"]
+- ["SH", "numberOfComponentsInPickerView"]
+- ["SH", "pickerView"]
+- !private ["SH", "selectRow"]
+- !private ["SH", "setValue"]
+- !private ["SH", "standard"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- !private ["SH", "synchronize"]
+- !private ["SH", "timbreKey"]
+- !private ["SH", "timbrePicker"]
+- !private ["SH", "timbres"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dataSource"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "numberOfComponents"]
+- ["So8NSCodingP", "numberOfComponentsInPickerView"]
+- ["So8NSCodingP", "pickerView"]
+- !private ["So8NSCodingP", "selectRow"]
+- !private ["So8NSCodingP", "timbreKey"]
+- !private ["So8NSCodingP", "timbrePicker"]
+- !private ["So8NSCodingP", "timbres"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDefaults"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "numberOfComponents"]
+- ["So26NSExtensionRequestHandlingP", "numberOfComponentsInPickerView"]
+- ["So26NSExtensionRequestHandlingP", "pickerView"]
+- !private ["So26NSExtensionRequestHandlingP", "timbreKey"]
+- !private ["So26NSExtensionRequestHandlingP", "timbrePicker"]
+- !private ["So26NSExtensionRequestHandlingP", "timbres"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIPickerView"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfComponents"]
+- ["So8NSObjectC", "numberOfComponentsInPickerView"]
+- ["So8NSObjectC", "pickerView"]
+- !private ["So8NSObjectC", "selectRow"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "synchronize"]
+- ["So8NSObjectC", "timbreKey"]
+- ["So8NSObjectC", "timbrePicker"]
+- ["So8NSObjectC", "timbres"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataSource"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "numberOfComponents"]
+- ["So8NSObjectP", "numberOfComponentsInPickerView"]
+- ["So8NSObjectP", "pickerView"]
+- !private ["So8NSObjectP", "selectRow"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "synchronize"]
+- !private ["So8NSObjectP", "timbreKey"]
+- !private ["So8NSObjectP", "timbrePicker"]
+- !private ["So8NSObjectP", "timbres"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "dataSource"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "selectRow"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["9ToneGuess21SettingViewControllerC", "Int"]
+- ["9ToneGuess21SettingViewControllerC", "String"]
+- ["9ToneGuess21SettingViewControllerC", "UIPickerView"]
+- !private ["9ToneGuess21SettingViewControllerC", "UserDefaults"]
+- ["9ToneGuess21SettingViewControllerC", "deinit"]
+- ["9ToneGuess21SettingViewControllerC", "init"]
+- ["9ToneGuess21SettingViewControllerC", "numberOfComponents"]
+- ["9ToneGuess21SettingViewControllerC", "numberOfComponentsInPickerView"]
+- ["9ToneGuess21SettingViewControllerC", "pickerView"]
+- ["9ToneGuess21SettingViewControllerC", "timbreKey"]
+- ["9ToneGuess21SettingViewControllerC", "timbrePicker"]
+- ["9ToneGuess21SettingViewControllerC", "timbres"]
+- ["9ToneGuess21SettingViewControllerC", "viewDidLoad"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "selectRow"]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "selectRow"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "numberOfComponents"]
+- ["So21UIAppearanceContainerP", "numberOfComponentsInPickerView"]
+- ["So21UIAppearanceContainerP", "pickerView"]
+- !private ["So21UIAppearanceContainerP", "selectRow"]
+- !private ["So21UIAppearanceContainerP", "timbreKey"]
+- !private ["So21UIAppearanceContainerP", "timbrePicker"]
+- !private ["So21UIAppearanceContainerP", "timbres"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "UserDefaults"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "numberOfComponents"]
+- ["So18UIContentContainerP", "numberOfComponentsInPickerView"]
+- ["So18UIContentContainerP", "pickerView"]
+- !private ["So18UIContentContainerP", "timbreKey"]
+- !private ["So18UIContentContainerP", "timbrePicker"]
+- !private ["So18UIContentContainerP", "timbres"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "selectRow"]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "selectRow"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "numberOfComponents"]
+- ["So18UIFocusEnvironmentP", "numberOfComponentsInPickerView"]
+- ["So18UIFocusEnvironmentP", "pickerView"]
+- !private ["So18UIFocusEnvironmentP", "selectRow"]
+- !private ["So18UIFocusEnvironmentP", "timbreKey"]
+- !private ["So18UIFocusEnvironmentP", "timbrePicker"]
+- !private ["So18UIFocusEnvironmentP", "timbres"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "selectRow"]
+- !private ["So20UIFocusItemContainerP", "dataSource"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "selectRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponents"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponentsInPickerView"]
+- ["So30UIPasteConfigurationSupportingP", "pickerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectRow"]
+- !private ["So30UIPasteConfigurationSupportingP", "timbreKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "timbrePicker"]
+- !private ["So30UIPasteConfigurationSupportingP", "timbres"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So12UIPickerViewC", "dataSource"]
+- !private ["So12UIPickerViewC", "delegate"]
+- !private ["So12UIPickerViewC", "selectRow"]
+- !private ["So22UIPickerViewDataSourceP", "UserDefaults"]
+- ["So22UIPickerViewDataSourceP", ""]
+- ["So22UIPickerViewDataSourceP", "numberOfComponents"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponentsInPickerView"]
+- ["So22UIPickerViewDataSourceP", "pickerView"]
+- !private ["So22UIPickerViewDataSourceP", "timbreKey"]
+- !private ["So22UIPickerViewDataSourceP", "timbrePicker"]
+- !private ["So22UIPickerViewDataSourceP", "timbres"]
+- !private ["So20UIPickerViewDelegateP", "UserDefaults"]
+- ["So20UIPickerViewDelegateP", ""]
+- ["So20UIPickerViewDelegateP", "numberOfComponents"]
+- ["So20UIPickerViewDelegateP", "numberOfComponentsInPickerView"]
+- ["So20UIPickerViewDelegateP", "pickerView"]
+- !private ["So20UIPickerViewDelegateP", "timbreKey"]
+- !private ["So20UIPickerViewDelegateP", "timbrePicker"]
+- !private ["So20UIPickerViewDelegateP", "timbres"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIPickerView"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberOfComponents"]
+- ["So11UIResponderC", "numberOfComponentsInPickerView"]
+- ["So11UIResponderC", "pickerView"]
+- !private ["So11UIResponderC", "selectRow"]
+- ["So11UIResponderC", "timbreKey"]
+- ["So11UIResponderC", "timbrePicker"]
+- ["So11UIResponderC", "timbres"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponents"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponentsInPickerView"]
+- ["So30UIResponderStandardEditActionsP", "pickerView"]
+- !private ["So30UIResponderStandardEditActionsP", "selectRow"]
+- !private ["So30UIResponderStandardEditActionsP", "timbreKey"]
+- !private ["So30UIResponderStandardEditActionsP", "timbrePicker"]
+- !private ["So30UIResponderStandardEditActionsP", "timbres"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "UserDefaults"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "numberOfComponents"]
+- ["So16UIStateRestoringP", "numberOfComponentsInPickerView"]
+- ["So16UIStateRestoringP", "pickerView"]
+- !private ["So16UIStateRestoringP", "timbreKey"]
+- !private ["So16UIStateRestoringP", "timbrePicker"]
+- !private ["So16UIStateRestoringP", "timbres"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "numberOfComponents"]
+- ["So18UITraitEnvironmentP", "numberOfComponentsInPickerView"]
+- ["So18UITraitEnvironmentP", "pickerView"]
+- !private ["So18UITraitEnvironmentP", "selectRow"]
+- !private ["So18UITraitEnvironmentP", "timbreKey"]
+- !private ["So18UITraitEnvironmentP", "timbrePicker"]
+- !private ["So18UITraitEnvironmentP", "timbres"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "dataSource"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "numberOfComponents"]
+- ["So23UIUserActivityRestoringP", "numberOfComponentsInPickerView"]
+- ["So23UIUserActivityRestoringP", "pickerView"]
+- !private ["So23UIUserActivityRestoringP", "selectRow"]
+- !private ["So23UIUserActivityRestoringP", "timbreKey"]
+- !private ["So23UIUserActivityRestoringP", "timbrePicker"]
+- !private ["So23UIUserActivityRestoringP", "timbres"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "dataSource"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "selectRow"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIPickerView"]
+- !private ["So16UIViewControllerC", "UserDefaults"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfComponents"]
+- ["So16UIViewControllerC", "numberOfComponentsInPickerView"]
+- ["So16UIViewControllerC", "pickerView"]
+- ["So16UIViewControllerC", "timbreKey"]
+- ["So16UIViewControllerC", "timbrePicker"]
+- ["So16UIViewControllerC", "timbres"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So14NSUserDefaultsC", "setValue"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["So14NSUserDefaultsC", "string"]
+- !private ["So14NSUserDefaultsC", "synchronize"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectRow"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timbreKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timbrePicker"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timbres"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dataSource"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "selectRow"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- "Sm"
+- "ST"
+- "9ToneGuess21SettingViewControllerC"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPickerViewC"
+- "So22UIPickerViewDataSourceP"
+- "So20UIPickerViewDelegateP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So14NSUserDefaultsC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a12dba78cf6f5e8243c2cf7c85a73671"

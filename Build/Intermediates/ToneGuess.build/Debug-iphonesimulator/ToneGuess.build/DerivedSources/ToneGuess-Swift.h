@@ -210,6 +210,10 @@ SWIFT_CLASS("_TtC9ToneGuess18MainViewController")
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer * _Nonnull)player successfully:(BOOL)flag;
+- (void)updateTimerLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified minuteLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified secondLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified millisecondLabel;
 @property (nonatomic, copy) IBOutletCollection(UILabel) NSArray<UILabel *> * _Null_unspecified labelCollection;
 @property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified inputModeSwitch;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified C4Tone;
@@ -226,6 +230,7 @@ SWIFT_CLASS("_TtC9ToneGuess18MainViewController")
 - (IBAction)onCheckButtonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onInputModeChange:(id _Nonnull)sender;
 - (IBAction)onCancelButtonTapped:(UIButton * _Nonnull)sender;
+- (IBAction)onTestButtonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onC4ButtonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onD4ButtonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onE4ButtonTapped:(UIButton * _Nonnull)sender;
@@ -234,6 +239,28 @@ SWIFT_CLASS("_TtC9ToneGuess18MainViewController")
 - (IBAction)onA4ButtonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onB4BuutonTapped:(UIButton * _Nonnull)sender;
 - (IBAction)onC5ButtonTapped:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9ToneGuess18MenuViewController")
+@interface MenuViewController : UIViewController
+- (void)viewDidLoad;
+- (IBAction)onStartButtonTapped:(UIButton * _Nonnull)sender;
+- (IBAction)onResultButtonTapped:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC9ToneGuess20ResultViewController")
+@interface ResultViewController : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified rank1Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified rank2Label;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified rank3Label;
+- (IBAction)onResetButtonTapped:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

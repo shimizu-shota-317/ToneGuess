@@ -17,10 +17,13 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
 - "UIWindow"
+- !private "sleep"
 depends-member:
 - ["9ToneGuess11AppDelegateC", "Bool"]
 - ["9ToneGuess11AppDelegateC", "UIApplication"]
@@ -39,6 +42,7 @@ depends-member:
 - ["9ToneGuess11AppDelegateC", "applicationWillTerminate"]
 - ["9ToneGuess11AppDelegateC", "deinit"]
 - ["9ToneGuess11AppDelegateC", "init"]
+- !private ["9ToneGuess11AppDelegateC", "sleep"]
 - ["9ToneGuess11AppDelegateC", "window"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - ["s7CVarArgP", ""]
@@ -56,6 +60,7 @@ depends-member:
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sleep"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -73,6 +78,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sleep"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - ["s23CustomStringConvertibleP", ""]
@@ -90,6 +96,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sleep"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["SQ", "LaunchOptionsKey"]
 - ["SQ", ""]
@@ -107,6 +114,7 @@ depends-member:
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "sleep"]
 - ["SQ", "window"]
 - ["SH", "LaunchOptionsKey"]
 - ["SH", ""]
@@ -124,6 +132,7 @@ depends-member:
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
+- !private ["SH", "sleep"]
 - ["SH", "window"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
@@ -143,6 +152,7 @@ depends-member:
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sleep"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - ["So8NSObjectP", ""]
@@ -160,6 +170,7 @@ depends-member:
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "sleep"]
 - ["So8NSObjectP", "window"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So21UIApplicationDelegateP", ""]
@@ -175,6 +186,7 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "sleep"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -192,6 +204,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "sleep"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
@@ -212,6 +225,7 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "sleep"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -229,6 +243,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "sleep"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -246,6 +261,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "sleep"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -263,6 +279,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sleep"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 depends-nominal:
 - "9ToneGuess11AppDelegateC"

@@ -11,7 +11,7 @@ import UIKit
 class SettingViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     
     let timbreKey:String = "timbre"
-    let timbres:[String] = ["piano", "guitar"]
+    let timbres:[String] = ["ピアノ", "ギター"]
     
     @IBOutlet weak var timbrePicker: UIPickerView!
     

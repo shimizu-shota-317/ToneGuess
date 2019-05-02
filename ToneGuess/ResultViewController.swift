@@ -42,12 +42,20 @@ class ResultViewController: UIViewController {
     
     
     @IBAction func onResetButtonTapped(_ sender: UIButton) {
-        let settings = UserDefaults.standard
-        settings.setValue(0, forKey: rank1)
-        settings.setValue(0, forKey: rank2)
-        settings.setValue(0, forKey: rank3)
-        settings.synchronize()
-        loadRanking()
+        let alertController = UIAlertController(title: "リセット", message: "記録をリセットしますか？", preferredStyle: .alert)
+        let actionOK = UIAlertAction(title: "はい", style: .default) { (action:UIAlertAction) in
+            let settings = UserDefaults.standard
+            settings.setValue(0, forKey: self.rank1)
+            settings.setValue(0, forKey: self.rank2)
+            settings.setValue(0, forKey: self.rank3)
+            settings.synchronize()
+            self.loadRanking()
+        }
+        let actionCancel = UIAlertAction(title: "キャンセル", style: .default) { (action:UIAlertAction) in
+        }
+        alertController.addAction(actionOK)
+        alertController.addAction(actionCancel)
+        self.present(alertController, animated: true, completion: nil)
     }
     
     func timeFormat(timeCount: Int) -> String {

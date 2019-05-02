@@ -1,8 +1,8 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "10702223a2811a3801711a08f19cd199"
-build_time: [1556469650, 499002000]
+build_time: [1556841093, 466013000]
 inputs:
-  "/Users/shimizu/ToneGuess/ToneGuess/ResultViewController.swift": [1556112562, 0]
+  "/Users/shimizu/ToneGuess/ToneGuess/ResultViewController.swift": [1556840937, 0]
   "/Users/shimizu/ToneGuess/ToneGuess/MainViewController.swift": [1556304547, 0]
   "/Users/shimizu/ToneGuess/ToneGuess/AppDelegate.swift": [1556377524, 0]
   "/Users/shimizu/ToneGuess/ToneGuess/SettingViewController.swift": [1556376678, 0]

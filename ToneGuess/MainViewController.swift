@@ -25,7 +25,7 @@ class MainViewController: UIViewController, AVAudioPlayerDelegate {
         if let timbre = settings.string(forKey: timbreKey){
             
             switch timbre {
-                case "guitar" :
+                case "ギター" :
                     paths = [guitarC4Path, guitarD4Path, guitarE4Path, guitarF4Path, guitarG4Path, guitarA4Path, guitarB4Path, guitarC5Path]
                 default:
                     paths = [pianoC4Path, pianoD4Path, pianoE4Path, pianoF4Path, pianoG4Path, pianoA4Path, pianoB4Path, pianoC5Path]
